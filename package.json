@@ -2,11 +2,6 @@
   "name": "jquery-cookie-bubble",
   "version": "1.0.0",
   "description": "The easy way to inform users that your website is using cookies.",
-  "keywords": [
-    "cookie",
-    "handsome-cookie",
-    "cookie-plugin"
-  ],
   "author": "João Pereira",
   "email":"joaopereirawd@gmail.com",
   "license": "MIT",

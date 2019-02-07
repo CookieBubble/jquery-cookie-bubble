@@ -1,4 +1,4 @@
-.cookieBubble {
+.cookie-bubble {
   position: fixed;
   width: 100%;
   max-width: 400px;
@@ -9,25 +9,25 @@
           box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
   z-index: 9999;
   font-family: sans-serif; }
-  .cookieBubble.top-left {
+  .cookie-bubble.top-left {
     top: 10px;
     left: 10px; }
-  .cookieBubble.top-right {
+  .cookie-bubble.top-right {
     top: 10px;
     right: 0px; }
-  .cookieBubble.top-center {
+  .cookie-bubble.top-center {
     top: 10px;
     left: calc(100vw - 100vw/2 - 400px/2); }
-  .cookieBubble.bottom-left {
+  .cookie-bubble.bottom-left {
     bottom: 10px;
     left: 10px; }
-  .cookieBubble.bottom-right {
+  .cookie-bubble.bottom-right {
     bottom: 10px;
     right: 0px; }
-  .cookieBubble.bottom-center {
+  .cookie-bubble.bottom-center {
     bottom: 10px;
     left: calc(100vw - 100vw/2 - 400px/2); }
-  .cookieBubble.show.top-left, .cookieBubble.show.top-center, .cookieBubble.show.top-right {
+  .cookie-bubble.show.top-left, .cookie-bubble.show.top-center, .cookie-bubble.show.top-right {
     -webkit-animation-name: popInTop;
             animation-name: popInTop;
     -webkit-animation-duration: 2s;
@@ -36,7 +36,7 @@
             animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
-  .cookieBubble.show.bottom-left, .cookieBubble.show.bottom-center, .cookieBubble.show.bottom-right {
+  .cookie-bubble.show.bottom-left, .cookie-bubble.show.bottom-center, .cookie-bubble.show.bottom-right {
     -webkit-animation-name: popInBottom;
             animation-name: popInBottom;
     -webkit-animation-duration: 2s;
@@ -45,37 +45,37 @@
             animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
-  .cookieBubble.hide {
+  .cookie-bubble.hide {
     display: none; }
-  .cookieBubble .cb-wrapper {
+  .cookie-bubble .cb-wrapper {
     position: relative;
     display: inline-block;
     padding: 15px; }
-    .cookieBubble .cb-wrapper .cb-row {
+    .cookie-bubble .cb-wrapper .cb-row {
       position: relative;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       text-align: left; }
-      .cookieBubble .cb-wrapper .cb-row .cb-row-content .message {
+      .cookie-bubble .cb-wrapper .cb-row .cb-row-content .message {
         position: relative;
         width: 100%;
         display: inline-block;
         color: #000000;
         font-size: 18px;
         margin-top: 0px; }
-      .cookieBubble .cb-wrapper .cb-row .cb-row-content .cb-controls {
+      .cookie-bubble .cb-wrapper .cb-row .cb-row-content .cb-controls {
         position: relative;
         width: 100%;
         float: left;
         margin-top: 10px; }
-      .cookieBubble .cb-wrapper .cb-row .cb-image {
+      .cookie-bubble .cb-wrapper .cb-row .cb-image {
         padding-right: 23px; }
-        .cookieBubble .cb-wrapper .cb-row .cb-image .cookie-inner {
+        .cookie-bubble .cb-wrapper .cb-row .cb-image .cookie-inner-color {
           fill: #00a4ff; }
-        .cookieBubble .cb-wrapper .cb-row .cb-image svg {
+        .cookie-bubble .cb-wrapper .cb-row .cb-image svg {
           width: 75px; }
-      .cookieBubble .cb-wrapper .cb-row .agreement-btn {
+      .cookie-bubble .cb-wrapper .cb-row .agreement-btn {
         margin: 0px;
         padding: 0px;
         text-decoration: none;
@@ -91,9 +91,9 @@
         font-weight: 600;
         float: left;
         margin-right: 10px; }
-        .cookieBubble .cb-wrapper .cb-row .agreement-btn:hover {
+        .cookie-bubble .cb-wrapper .cb-row .agreement-btn:hover {
           background-color: #0083cc; }
-      .cookieBubble .cb-wrapper .cb-row .cookie-policy-btn {
+      .cookie-bubble .cb-wrapper .cb-row .cookie-policy-btn {
         margin: 0px;
         color: #000;
         padding: 10px 0px;
@@ -104,7 +104,7 @@
         cursor: pointer;
         font-weight: 400;
         float: left; }
-        .cookieBubble .cb-wrapper .cb-row .cookie-policy-btn:hover {
+        .cookie-bubble .cb-wrapper .cb-row .cookie-policy-btn:hover {
           opacity: 1;
           text-decoration: underline; }
 

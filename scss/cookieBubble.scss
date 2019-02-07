@@ -1,7 +1,7 @@
 $cb_scheme_color:#00a4ff;
 $cb_msg_color:#000000;
 
-.cookieBubble  {
+.cookie-bubble {
     position: fixed;
     width: 100%;
     max-width:400px;
@@ -94,7 +94,7 @@ $cb_msg_color:#000000;
                 }
                 .cb-image {
                     padding-right: 23px;
-                        .cookie-inner {
+                        .cookie-inner-color {
                             fill:$cb_scheme_color;
                         }
                         svg {
