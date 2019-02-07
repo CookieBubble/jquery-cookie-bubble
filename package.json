@@ -1,0 +1,32 @@
+{
+  "name": "jquery-cookie-bubble",
+  "version": "1.0.0",
+  "description": "The easy way to inform users that your website is using cookies.",
+  "keywords": [
+    "cookie",
+    "handsome-cookie",
+    "cookie-plugin"
+  ],
+  "author": "João Pereira",
+  "email":"joaopereirawd@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/CookieBubble/jquery-cookie-bubble",
+  "bugs": "https://github.com/CookieBubble/jquery-cookie-bubble/issues",
+  "repository": {
+    "url": "https://github.com/CookieBubble/jquery-cookie-bubble",
+    "type": "git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-minify": "^3.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}

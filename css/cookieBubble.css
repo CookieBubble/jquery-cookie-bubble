@@ -1,0 +1,164 @@
+.cookieBubble {
+  position: fixed;
+  width: 100%;
+  max-width: 400px;
+  min-height: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  font-family: sans-serif; }
+  .cookieBubble.top-left {
+    top: 10px;
+    left: 10px; }
+  .cookieBubble.top-right {
+    top: 10px;
+    right: 0px; }
+  .cookieBubble.top-center {
+    top: 10px;
+    left: calc(100vw - 100vw/2 - 400px/2); }
+  .cookieBubble.bottom-left {
+    bottom: 10px;
+    left: 10px; }
+  .cookieBubble.bottom-right {
+    bottom: 10px;
+    right: 0px; }
+  .cookieBubble.bottom-center {
+    bottom: 10px;
+    left: calc(100vw - 100vw/2 - 400px/2); }
+  .cookieBubble.show.top-left, .cookieBubble.show.top-center, .cookieBubble.show.top-right {
+    -webkit-animation-name: popInTop;
+            animation-name: popInTop;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+  .cookieBubble.show.bottom-left, .cookieBubble.show.bottom-center, .cookieBubble.show.bottom-right {
+    -webkit-animation-name: popInBottom;
+            animation-name: popInBottom;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+  .cookieBubble.hide {
+    display: none; }
+  .cookieBubble .cb-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 15px; }
+    .cookieBubble .cb-wrapper .cb-row {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: left; }
+      .cookieBubble .cb-wrapper .cb-row .cb-row-content .message {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        color: #000000;
+        font-size: 18px;
+        margin-top: 0px; }
+      .cookieBubble .cb-wrapper .cb-row .cb-row-content .cb-controls {
+        position: relative;
+        width: 100%;
+        float: left;
+        margin-top: 10px; }
+      .cookieBubble .cb-wrapper .cb-row .cb-image {
+        padding-right: 23px; }
+        .cookieBubble .cb-wrapper .cb-row .cb-image .cookie-inner {
+          fill: #00a4ff; }
+        .cookieBubble .cb-wrapper .cb-row .cb-image svg {
+          width: 75px; }
+      .cookieBubble .cb-wrapper .cb-row .agreement-btn {
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        color: #fff;
+        background: #00a4ff;
+        padding: 10px 20px;
+        border-radius: 100px;
+        font-size: 14px;
+        opacity: 1;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 600;
+        float: left;
+        margin-right: 10px; }
+        .cookieBubble .cb-wrapper .cb-row .agreement-btn:hover {
+          background-color: #0083cc; }
+      .cookieBubble .cb-wrapper .cb-row .cookie-policy-btn {
+        margin: 0px;
+        color: #000;
+        padding: 10px 0px;
+        border-radius: 100px;
+        font-size: 14px;
+        opacity: .95;
+        border: none;
+        cursor: pointer;
+        font-weight: 400;
+        float: left; }
+        .cookieBubble .cb-wrapper .cb-row .cookie-policy-btn:hover {
+          opacity: 1;
+          text-decoration: underline; }
+
+.cookieBubble .copyright-wrapper {
+  margin-top: 20px; }
+  .cookieBubble .copyright-wrapper a.copyright {
+    position: absolute;
+    width: 80px;
+    height: 16px;
+    bottom: 8px;
+    right: 7px;
+    margin-top: 30px;
+    background: url("../img/cb_copyright.svg");
+    background-size: cover; }
+
+@-webkit-keyframes popInBottom {
+  0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%); }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
+
+@keyframes popInBottom {
+  0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%); }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
+
+@-webkit-keyframes popInTop {
+  0% {
+    -webkit-transform: translateY(-120%);
+            transform: translateY(-120%); }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
+
+@keyframes popInTop {
+  0% {
+    -webkit-transform: translateY(-120%);
+            transform: translateY(-120%); }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
+
+@media (max-width: 420px) {
+  .cookieBubble {
+    border-radius: 0px;
+    max-width: inherit;
+    left: 0px !important;
+    bottom: 0px !important; } }
+
+@media (max-width: 420px) {
+  .cookieBubble .cb-image {
+    display: none; } }
