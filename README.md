@@ -45,22 +45,22 @@ https://cookiebubble.netlify.com
 ```
 
 ## Options 
-Options | Default |Description | Available Options
---- | --- | --- | --- 
-cookieMaxAge                | 30                              | Expiring Days| (Number)
-messageText                 | 'We use cookies to personalize your experience. </br> By continuing to visit this website you agree to our use of cookies.'     | 'Your personal message'   | (String)
-messageTextColor            | '#000'                          | Message text color| hex, rgb, rgba
-messageFontSize             | '18px'                          | Message text font-size      | px, em, rem
-buttonText                  | 'Got it'                        | Button text                 | (String)
-buttonColor                 | '#00a4ff'                       | Button background-color     | hex, rgb, rgba 
-buttonFontSize              | '18px'                          | Button text font-size       | px, em, rem 
-iconColor                   | '#00a4ff'                       | Icon color                  | hex, rgb, rgba
-iconVisibility              | true                            | Icon Visibility             | (Bool)
-cookiePolicyButtonText      | 'Read Our Cookie Policy'        | Cookie policy button text   | (String)
-cookiePolicyButtonTextColor | '#000'                          | Cookie policy button color  | hex, rgb, rgba
-cookiePolicyButtonUrl       | 'http://allaboutcookies.org/'   | Cookie policy page url      | url
-cookiePolicyButtonTarget    | '_blank'                        | Cookie policy target        | _self
-boxAppearDelay              | 1000                            | Delay time (ms)             | (Number)
+Name | Default | Options
+--- | --- | --- 
+cookieMaxAge                | 30                              | (Number)
+messageText                 | 'We use cookies to personalize your experience. </br> By continuing to visit this website you agree to our use of cookies.'      | (String)
+messageTextColor            | '#000'                          | hex, rgb, rgba
+messageFontSize             | '18px'                          | px, em, rem
+buttonText                  | 'Got it'                        | (String)
+buttonColor                 | '#00a4ff'                       | hex, rgb, rgba 
+buttonFontSize              | '18px'                          | px, em, rem 
+iconColor                   | '#00a4ff'                       | hex, rgb, rgba
+iconVisibility              | true                            | (Bool)
+cookiePolicyButtonText      | 'Read Our Cookie Policy'        | (String)
+cookiePolicyButtonTextColor | '#000'                          | hex, rgb, rgba
+cookiePolicyButtonUrl       | 'http://allaboutcookies.org/'   | url
+cookiePolicyButtonTarget    | '_blank'                        | _self
+boxAppearDelay              | 1000                            | (Number)
 
 
 ## Versioning
