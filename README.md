@@ -61,6 +61,7 @@ cookiePolicyButtonTextColor | '#000'                          | hex, rgb, rgba
 cookiePolicyButtonUrl       | 'http://allaboutcookies.org/'   | url
 cookiePolicyButtonTarget    | '_blank'                        | _self
 boxAppearDelay              | 1000                            | (Number)
+boxPosition                 | 'bottom-left'                   | 'bottom-left', 'bottom-center', 'bottom-right', 'top-left', 'top-center', 'top-right'
 
 
 ## Versioning
