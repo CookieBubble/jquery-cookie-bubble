@@ -72,8 +72,5 @@ The `jquery-cookie-bubble` library follows [Semantic Versioning](https://semver.
 If you encounter an issue or want to request a feature, you can [create an issue](https://github.com/CookieBubble/jquery-cookie-bubble/issues/new).
 
 ## Similar Projects
-- [jQuery implementation of cookieBubble](https://github.com/CookieBubble/jquery-cookie-bubble)  ✅
-- [React implementation of cookieBubble](https://github.com/CookieBubble/react-cookie-bubble)  ✅
-</br>soon:</br>
-- [Vanilla implementation of cookieBubble](https://github.com/CookieBubble/vanilla-cookie-bubble)  🔜
-- [Vue implementation of cookieBubble](https://github.com/CookieBubble/vue-cookie-bubble) 🔜
+- [jQuery implementation of cookieBubble](https://github.com/CookieBubble/jquery-cookie-bubble)  
+- [React implementation of cookieBubble](https://github.com/CookieBubble/react-cookie-bubble)  
